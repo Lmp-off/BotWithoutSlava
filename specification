@@ -1,0 +1,8 @@
+*B. can add rules+
+*create server lows and monitor their implementation by B.
+*B. can mute members for a while (create thread that checking mute list and sleep thread by 300000 mills)
+((B.2) shop bot)
+((B.3) cooking bot)
+*B. can't ban or kick members
+after reading rules B. must add member rule for people (if they accept their (&accept))
+if member is player he needs to write &Player to add role "player" (will be writing in the rules)
