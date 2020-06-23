@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Pr1</artifactId>
+    <artifactId>Bot</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -24,16 +24,15 @@
         <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
-            <version>4.1.1_151</version>
+            <version>4.1.1_164</version>
         </dependency>
     </dependencies>
-
     <repositories>
-        <repository>
-            <id>jcenter</id>
-            <name>jcenter-bintray</name>
-            <url>https://jcenter.bintray.com</url>
-        </repository>
+    <repository>
+        <id>jcenter</id>
+        <name>jcenter-bintray</name>
+        <url>https://jcenter.bintray.com</url>
+    </repository>
     </repositories>
 
 </project>

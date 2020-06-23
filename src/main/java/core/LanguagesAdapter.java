@@ -1,5 +1,6 @@
 package core;
 
+
 import texts.texts;
 
 public class LanguagesAdapter {

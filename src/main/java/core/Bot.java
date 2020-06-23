@@ -5,15 +5,11 @@ import mute.MuteMain;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.Permission;
-import net.dv8tion.jda.api.entities.*;
+import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import net.dv8tion.jda.api.requests.restaction.RoleAction;
 import settings.CONSTS;
-import java.*;
 
-import java.awt.*;
-import java.util.List;
 
 /*
 *
@@ -32,7 +28,8 @@ public class Bot extends ListenerAdapter {
         first_init= new First_Init();
     }
     public static void main(String[] args) throws Exception {
-        JDA jda = new JDABuilder(CONSTS.token).addEventListeners(new Bot()).setActivity(Activity.playing("Type &help")).build();
+        JDA jda;
+        jda = new JDABuilder(CONSTS.token).addEventListeners(new Bot()).setActivity(Activity.playing("Type &help")).build();
         System.out.println(jda.getInviteUrl(Permission.getFromOffset(8)));
         jda.addEventListener();
     }
